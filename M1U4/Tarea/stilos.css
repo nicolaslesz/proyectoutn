@@ -2,10 +2,19 @@ h1{ color:cadetblue;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 h3{color: darkgreen;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;}
 
-#negro {background-color:cadetblue;color: white;font-style: bold;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#negro{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+    background: #d2ff52; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+    ;color:crimson;    font-family: 'Source Code Pro', monospace;
+    ;font-style: bold;width: 700px;height: 100px;padding: 10px;align-items: center;border-radius: 10px 0 10px 0;}
 
 h4{font-style: italic;text-decoration: underline;}
 
 li{color: red;}
 
 h5{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.panel{width: 250px; height: 100px; background-color: gold;padding: 5px;border-radius: 10px;box-shadow: 5px 5px 5px goldenrod;}
