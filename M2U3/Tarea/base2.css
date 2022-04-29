@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	overflow: hidden;
+}
+nav {
+	background: RGB(255,204,102);
+height: 120px;display: flex;
+align-items:center;
+;
+}
+
+ul {
+	list-style-type:none;
+}
+
+a {
+	color:black;
+	text-decoration: none;	
+	;
+}
+section {
+	background: #F1F2C0;
+	border: 1px solid black;
+	height: 150px;
+	text-align: left;
+	padding-left: 15px;	
+}
+
+aside {
+	background: #CCC59E;
+	overflow: hidden;
+	padding-left: 15px;
+}
