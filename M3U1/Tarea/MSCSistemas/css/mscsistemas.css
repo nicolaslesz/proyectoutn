@@ -1,34 +1,25 @@
 /*-------------------------------Cabecera y Nav--------------------------------------------- */
 
-h1{    font-family: 'Secular One', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-}
+h1{font-family: 'Secular One', sans-serif;
+    font-family: 'Source Code Pro', monospace;}
 
 header{background-color: darkorchid;padding: 20px;} 
 
-header h1{
-    display: inline-block;position: absolute;margin-left: 15px;color: white ;
-}
+header h1{display: inline-block;position: absolute;margin-left: 15px;color: white ;}
 
 header img{width: 80px;height: 80px;border-radius: 50%;}
 
+nav{width: 250px;height: fill ;background-color: darkorchid;display: flex;flex-direction: column;}
 
-nav{width: 250px;height: fill ;background-color: darkorchid;display: flex;flex-direction: column;
-    }
-
-nav ul li {list-style: none;padding-top: 25px;padding-bottom: 25px;
-}
+nav ul li {list-style: none;padding-top: 25px;padding-bottom: 25px;}
 
 nav ul li:hover{background-color: mediumpurple;}
 
-a{ color: white; 
-    font-family: 'Press Start 2P', cursive;font-size: 9pt;
-}
+a{ color: white; font-family: 'Press Start 2P', cursive;font-size: 8pt;}
 
 /*-----------------------------------Main-------------------------------------------------- */
 
 main{position: relative;margin: 40px;}
-
 main img{width: 1050px;height: 300px;}
 
 .subtit{font-family: 'Press Start 2P', cursive;color: darkorchid;text-shadow: 2px 0 black;}
@@ -61,6 +52,35 @@ p{font-family: 'Baloo Tammudu 2';line-height: 2; height: 120px;}
 .servicios:hover{border: 2pt solid darkorchid;border-radius: 50px;transform:translate(30px,0px);}
 .servicios h3{margin-left: 30px;margin-top: 30px;font-family: 'Baloo Tammudu 2', cursive;color:darkorchid;}
 .servicios p{margin-left: 30px;font-family: 'Baloo Tammudu 2', cursive;width: 600px;}
+
+.datos{height: 200px;}
+.datos h2{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 40pt;}
+.datos p{font-size: 15pt;height: 50px;}
+.datos h3{font-family: 'Saira', sans-serif;font-size: 25pt;}
+
+.contacta{display: flex;justify-content: space-between; width: 1000px;margin-top: 50px; height: 200px;}
+.contacta h4{font-family: 'Baloo Tammudu 2', cursive;color: darkorchid;font-size: 20pt;}
+.contacta p{width: 250px;}
+
+.formulario h3{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 20pt;}
+.formulario div{display: flexbox;flex-wrap: wrap;width: 1050px;}
+.formulario div input{width: 500px; margin-top: 20px;height: 30px; border-radius: 50px;font-family: 'Saira', sans-serif;text-indent: 10px;}
+.formulario textarea{width: 1015px;margin-top: 20px;height: 200px;border-radius: 20px;text-indent: 10px;font-family: 'Saira', sans-serif;resize: none;}
+.formulario button{width: 100px;height: 50px;background-color: darkorchid;color: white;font-family: 'Saira', sans-serif;margin-top: 20px;border-radius: 50px;}
+.formulario button:hover{background-color: mediumpurple;}
+
+.refe{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-between;}
+.refe p{width: 250px;padding: 20px; font-size: 12pt;}
+.refe h3{font-family: 'Baloo Tammudu 2', cursive;color: darkorchid;font-size: 15pt;padding: 20px;}
+.refe div{border: 2pt solid darkorchid;margin-top: 20px;border-radius: 50px;}
+.refe div:hover{box-shadow: 0 -2px  grey ;transform: translate(0px,-10px);}
+
+.titref{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 30pt;}
+
+.experiencia textarea{width: 1100px;margin-top: 20px;height: 200px;border-radius: 20px;text-indent: 10px;font-family: 'Saira', sans-serif;resize: none;}
+.experiencia h3{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 20pt;}
+.experiencia button{width: 100px;height: 50px;background-color: darkorchid;color: white;font-family: 'Saira', sans-serif;margin-top: 20px;border-radius: 50px;}
+.experiencia button:hover{background-color: mediumpurple;}
 
 /*---------------------------------Pie-------------------------------------------------------------------*/
 
