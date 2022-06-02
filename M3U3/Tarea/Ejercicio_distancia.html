@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<script>
+    var distancia;
+  distancia=prompt('Ingrese una distancia para asignarle su medio de transporte','');
+
+  distancia=parseInt(distancia);
+
+  if( distancia <= 1000){document.write('Usted debe concurrir a pie');}
+
+  else if(distancia <= 10000){document.write('Usted debe concurrir en bicicleta');}
+    
+  else if(distancia <= 30000){document.write('Usted debe concurrir en colectivo');}
+    
+  else if ( distancia <= 100000){document.write('Usted debe concurrir en auto');}   
+    
+  else if (distancia >= 100000){document.write('Usted debe concurrir en avion');}
+
+  /* PENSE EN REALIZAR UN SWITCH PERO ENTIENDO QUE DEBE SER UN VALOR EXACTO Y NO UN 
+  UN RANGO COMO ES EN ESTE CASO, POR FAVOR COFIRMAR SI ES ASÍ */ 
+
+
+
+
+	</script>
+</body>
+</html>
+

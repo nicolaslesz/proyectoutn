@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<script>
+		var numeros = [3,120,45,600,87,1000];
+		var tamaño = numeros.length;
+		var alto = numeros[0];
+
+		for (var i = 0; i < numeros.length; i++){
+			if (numeros[i] > alto){
+				alto = numeros[i];
+			}
+		}
+		
+		document.write("El numero mas alto es :" + " " + alto);
+	</script>
+
+</body>
+</html>
