@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos1.css">
+    <title>Ejercicio 1</title>
+</head>
+<body id="cuerpo">    
+        <div  id="primero"></div>
+        <div  id="segundo"></div>
+        <div  id="tercero"></div>
+<script>
+var uno = document.getElementById("primero");
+var dos = document.getElementById("segundo");
+var tres = document.getElementById("tercero");
+var cuerpo = document.getElementById("cuerpo");
+
+uno.addEventListener("click", function(){
+cuerpo.style.background = "red";
+})
+
+dos.addEventListener("click", function(){
+cuerpo.style.background = "blue";
+})
+
+tres.addEventListener("click", function(){
+cuerpo.style.background = "yellow";
+})
+
+
+</script>
+</body>
+</html>
