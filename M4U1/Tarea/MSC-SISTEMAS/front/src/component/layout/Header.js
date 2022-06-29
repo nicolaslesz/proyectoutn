@@ -1,9 +1,12 @@
+import '../../styles/layout.css';
+
 const Header = (props) => {
     return(
-        <div>
+       
+       <header>
            <img src="img/indice.png" alt="pc"/>
             <h1>MSC-Sistemas</h1>  
-        </div>
+            </header>
     );
 }
 export default Header;

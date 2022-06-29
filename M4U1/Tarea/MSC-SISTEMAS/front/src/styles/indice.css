@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&family=Source+Code+Pro:wght@300&display=swap');
+
+
+main{position: relative;margin: 40px;}
+
+main img{width: 1050px;height: 300px;}
+
+
+.organiza{display: flex;flex-direction: row;}
+
+.subtit{font-family: 'Press Start 2P', cursive;color: darkorchid;text-shadow: 2px 0 black;}
+
+.tarjetas{display: flex;padding: 20px;justify-content: space-around;height: 200px;}
+
+.tar{ width: 200px;display: flex;flex-direction: column;align-items: center;text-align: center;}
+
+.fotito{border-radius: 50%;width: 100px;height: 100px;border: 2px solid darkorchid;padding: 10px;}
+
+.instrucciones{font-family: 'Ubuntu', sans-serif;;font-style: italic;line-height: 2;}
+
+.encolumna{width: 1050px;}
+
+.organiza{display: flex;flex-direction: row;}
+

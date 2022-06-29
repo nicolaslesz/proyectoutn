@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+.imgfond{background:url("team.jpg");width: 1050px;height: 400px;margin-bottom: 20px;}
+
+.servicios:hover{border: 2pt solid darkorchid;border-radius: 50px;transform:translate(30px,0px);}
+.servicios h3{margin-left: 30px;margin-top: 30px;font-family: 'Baloo Tammudu 2', cursive;color:darkorchid;}
+.servicios p{margin-left: 30px;font-family: 'Baloo Tammudu 2', cursive;width: 600px;}
+
+.textos{padding: 60px;width: 300px;}
+.textos h2{color: white;font-family: 'Baloo Tammudu 2', cursive;text-shadow: 2px 0 black;font-size: 30pt;}
+.textos h4{color: white;font-family: 'Baloo Tammudu 2', cursive;text-shadow: 2px 0 black;}
+.textos p{color: white;font-size: 11;font-family: 'Merriweather Sans', sans-serif;line-height: 1.5;}
+
+.separa{display: flexbox;flex-direction: column;align-content: space-between;}
+.servicios{width: 1050px;display: flex;flex-direction: column;
+; justify-content: center;margin-bottom: 40px; transition:all 0.2s ease 0.2s;border-radius: 50%;}

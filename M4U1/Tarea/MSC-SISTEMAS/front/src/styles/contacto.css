@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.datos{height: 200px;}
+.datos h2{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 40pt;}
+.datos p{font-size: 15pt;height: 50px;}
+.datos h3{font-family: 'Saira', sans-serif;font-size: 25pt;}
+
+.contacta{display: flex;justify-content: space-between; width: 1000px;margin-top: 50px; height: 200px;}
+.contacta h4{font-family: 'Baloo Tammudu 2', cursive;color: darkorchid;font-size: 20pt;}
+.contacta p{width: 250px;}
+
+.formulario h3{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 20pt;}
+.formulario div{display: flexbox;flex-wrap: wrap;width: 1050px;}
+.formulario div input{width: 500px; margin-top: 20px;height: 30px; border-radius: 50px;font-family: 'Saira', sans-serif;text-indent: 10px;}
+.formulario textarea{width: 1015px;margin-top: 20px;height: 200px;border-radius: 20px;text-indent: 10px;font-family: 'Saira', sans-serif;resize: none;}
+.formulario button{width: 100px;height: 50px;background-color: darkorchid;color: white;font-family: 'Saira', sans-serif;margin-top: 20px;border-radius: 50px;}
+.formulario button:hover{background-color: mediumpurple;}
