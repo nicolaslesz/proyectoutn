@@ -23,20 +23,19 @@ const Contacto = (props) => {
     <p>O via e-mail</p>
 </div>
 </div>
-{/* <div>
+ <div>
     <form action="" method="" className='formulario'> 
         <h3>Envia tus consultas</h3>
         <div>
-            <input type="text" placeholder="Nombre y Apellido">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Telefono">
-            <input type="text" placeholder="Localidad">
+            <input type="text" placeholder="Nombre y Apellido"/>
+            <input type="text" placeholder="Email"/>
+            <input type="text" placeholder="Telefono"/>
+            <input type="text" placeholder="Localidad"/>
         </div>        
          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" ></textarea>
          <button>Enviar</button>
     </form>
-
-</div>     */}
+</div>     
     </main> 
     );
 }
