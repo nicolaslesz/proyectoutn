@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+{{#if seguro}}
+<p>La Contraseña : {{Contraseña}} es segura <a href="/salir">salir</a></p>
+{{/if}}
+
+{{#unless seguro}}
+<p>La contraseña no cumple con las normas de seguridad</p>
+<form action="/ingresar" method="post">
+<input type="text" name="Contraseña"><button>ingresar</button>
+</form>
+{{unless}}
