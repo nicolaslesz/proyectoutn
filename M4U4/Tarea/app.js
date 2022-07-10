@@ -37,7 +37,7 @@ app.use(session({
 //app.use('/users', usersRouter);
 
 app.get('/',function(req,res){
-var seguro = Boolean(re.session.nombre);
+var seguro = Boolean(re.session.contraseña);
 
 res.render('index',{
  title: "Checkeo de constraseña segura",
