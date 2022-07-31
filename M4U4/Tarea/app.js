@@ -56,7 +56,7 @@ res.redirect("/");
 });
 
 
-app.get()
+//app.get()
 
 
 // catch 404 and forward to error handler
