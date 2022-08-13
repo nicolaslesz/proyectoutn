@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+h1{font-family: 'Secular One', sans-serif;
+    font-family: 'Source Code Pro', monospace;}
+
+header{background-color: darkorchid;padding: 20px;} 
+
+header h1{display: inline-block;position: absolute;margin-left: 15px;color: white ;}
+
+header img{width: 80px;height: 80px;border-radius: 50%;}
+
+nav{width: 250px;height: fill ;background-color: darkorchid;display: flex;flex-direction: column;}
+
+nav ul li {list-style: none;padding-top: 25px;padding-bottom: 25px;}
+
+nav ul li:hover{background-color: mediumpurple;}
+
+a{ color: white; font-family: 'Press Start 2P', cursive;font-size: 8pt;}
+
+
+footer{text-align: center;height: 80px; display: flex;flex-direction: column;
+    justify-content: center;background-color:black;color: white;
+    font-family: 'Baloo Tammudu 2';bottom: 0px;position: absolute;bottom: 0px;width: 100%;}
+
