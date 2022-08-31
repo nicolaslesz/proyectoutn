@@ -2,13 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 
-.refe{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-between;}
-.refe p{width: 250px;padding: 20px; font-size: 12pt;}
-.refe h3{font-family: 'Baloo Tammudu 2', cursive;color: darkorchid;font-size: 15pt;padding: 20px;}
-.refe div{border: 2pt solid darkorchid;margin-top: 20px;border-radius: 50px;}
-.refe div:hover{box-shadow: 0 -2px  grey ;transform: translate(0px,-10px);}
+/* .refe{display: flex;flex-wrap: wrap;flex-direction: col;justify-content: space-between;} */
+ .refe h3{font-family: 'Baloo Tammudu 2', cursive;color: darkorchid;font-size: 15pt;} */
+ /* .refe div{display: flex;flex-wrap: wrap;flex-direction: col;justify-content: space-between;border: 2pt solid darkorchid;margin-top: 20px;border-radius: 50px; width: 250px;height: 350px;} */ */
+/* .refe div:hover{box-shadow: 0 -3px  grey ;transform: translate(0px,-10px);}  */ */
+.refe img{width: 75px;height: 75px;}
+.refe{display: flex;flex-direction:column ;border: 2pt solid darkorchid;margin-top: 30px;margin-bottom:10px;border-radius: 50px; width: 250px;height: 350px;align-items: center;}
+.refe img{width: 70px;height: 70px;}
 
-.titref{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 30pt;}
+.container{display: flex;flex-wrap: wrap;flex-direction: col;justify-content: space-between;width: 980px;font-family: 'Baloo Tammudu 2', cursive;}
+/* .container div:hover{box-shadow: 0 -2px  grey ;transform: translate(0px,-10px);} */
+/* .acomoda{display:flexbox ;flex-direction: row;} */
+
+.dircon{font-family: 'Baloo Tammudu 2', cursive;text-align: center;}
+
+.texto{width: 250px;padding: 20px; font-size: 12pt;font-family: 'Baloo Tammudu 2';}
+
+.titref{font-family: 'Archivo Black', sans-serif;color: darkorchid;font-size: 30pt;}
 
 .experiencia textarea{width: 1100px;margin-top: 20px;height: 200px;border-radius: 20px;text-indent: 10px;font-family: 'Saira', sans-serif;resize: none;}
 .experiencia h3{font-family: 'Archivo Black', sans-serif;;color: darkorchid;font-size: 20pt;}

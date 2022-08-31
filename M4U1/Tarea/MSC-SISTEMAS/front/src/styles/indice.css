@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&family=Source+Code+Pro:wght@300&display=swap');
 
 
-main{position: relative;margin: 40px;}
+main{margin-left: 250px;margin-top: 40px; margin-bottom: 30px;}
 
 main img{width: 1050px;height: 300px;}
 

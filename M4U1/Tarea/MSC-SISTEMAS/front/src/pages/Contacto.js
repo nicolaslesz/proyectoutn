@@ -1,8 +1,41 @@
 import '../styles/contacto.css'
+import { useState } from 'react';
+import axios from 'axios';
 
 const Contacto = (props) => {
-    return(
+    const initialForm = {
+        nombre: '',
+        email: '',
+        telefono: '',
+        mensaje: ''
+    }
     
+    const [sending, setSending] =  useState(false);
+    const [msg, setMsg] = useState('');
+    const [formData, setFormData] = useState(initialForm);
+
+    const handleChange = e => {
+        const {name, value} = e.target;
+        setFormData(oldData => ({
+            ...oldData,
+            [name]:value
+        }));
+    }
+    
+    const handleSubmit = async e => {
+        e.preventDefault();
+        setMsg('');
+        setSending(true)
+        const response = await
+        axios.post('http://localhost:3000/api/contacto', formData);
+        setSending(false);
+        setMsg(response.data.message);
+        if(response.data.error === false){
+            setFormData(initialForm)
+        }
+    }
+
+return(
     <main>
       <div className='datos'>
 <h2>Contactanos</h2>
@@ -24,19 +57,22 @@ const Contacto = (props) => {
 </div>
 </div>
  <div>
-    <form action="" method="" className='formulario'> 
+    <form action="/contacto" method="post" className='formulario' onSubmit={handleSubmit}> 
         <h3>Envia tus consultas</h3>
         <div>
-            <input type="text" placeholder="Nombre y Apellido"/>
-            <input type="text" placeholder="Email"/>
-            <input type="text" placeholder="Telefono"/>
+            <input type="text" placeholder="Nombre y Apellido" name='nombre' value={formData.nombre} onChange={handleChange}/>
+            <input type="text" placeholder="Email" name='email' value={formData.email} onChange={handleChange}/>
+            <input type="text" placeholder="Telefono" name='telefono' value={formData.telefono} onChange={handleChange}/>
             <input type="text" placeholder="Localidad"/>
         </div>        
-         <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" ></textarea>
-         <button>Enviar</button>
+         <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"  value={formData.mensaje} onChange={handleChange}></textarea>
+        {sending ? <p> Enviando...</p> : null}
+        {msg ? <p>{msg}</p> : null}
+         <button type='submit' >Enviar</button>
     </form>
 </div>     
     </main> 
     );
 }
+
 export default Contacto;
